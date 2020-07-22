@@ -22,21 +22,21 @@
         </div>
     <div id="contacto" class="contacto">
         <form id="formulario" class="form" method="POST" action="../backend/login.php">
-            <h3 class="text-center ">INICIO DE SESIÓN</h3>
+            <h3 class="text-center text-dark">INICIO DE SESIÓN</h3>
             <div class="container">
                 <div id="login-row" class="row justify-content-center align-items-center">
                     <div id="login-column" class="col-md-6">
                         <div id="login-box" class="col-md-12">
                             <div class="contenedor-campos">
                                 <div class="campo">
-                                    <label for="usuario" class="text-info">Usuario: </label>
+                                    <label for="usuario" class="text-dark"><strong>Usuario:</strong> </label>
                                     <input type="text" name="usuario" id="usuario" placeholder="Usuario" required="required">
                                 </div>
                                 <div class="campo">
-                                    <label for="password" class="text-info" >Password: </label>
+                                    <label for="password" class="text-dark" ><strong>Password:</strong> </label>
                                     <input type="password" name="password" id="password" placeholder="Password" required="required">
                                 </div>
-                                <div class="enviar">
+                                <div class="enviar btn-login">
                                     <input type="hidden" id="tipo" value="crear">
                                     <input type="submit" class="btn btn-info btn-md" value="Iniciar Sesión">
                                 </div>
